@@ -4,7 +4,7 @@ export default function ChatHeader() {
   return (
     <header
       id="chat-header"
-      className="flex items-center gap-3 bg-wa-green-dark px-4 py-2.5 shadow-md"
+      className="flex items-center gap-3 bg-wa-green-dark px-4 pb-2.5 pt-[max(10px,env(safe-area-inset-top))] shadow-md"
     >
       {/* Avatar */}
       <Image
